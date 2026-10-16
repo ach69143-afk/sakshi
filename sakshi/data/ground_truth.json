@@ -1,0 +1,586 @@
+{
+  "bait_phone": "9737826398",
+  "broker_person_id": "T001",
+  "burner_phone": "9874821759",
+  "burner_seen_near": [
+    "MP-01",
+    "MP-02",
+    "MP-04",
+    "MP-05"
+  ],
+  "case": "SP-014 Durg Missing Cluster",
+  "co_traveler_adult_record": "R0056",
+  "co_traveler_stay_evidence": [
+    "HT-0004",
+    "HT-0008",
+    "HT-0013",
+    "HT-0014"
+  ],
+  "decoy_person_id": "T014",
+  "do_not_merge": [
+    [
+      "R0039",
+      "R0042"
+    ]
+  ],
+  "extras": {
+    "broker_phones": [
+      "9882081219",
+      "9603859770",
+      "8771093248"
+    ],
+    "broker_second_account": "ACC0002",
+    "circular_accounts": [
+      "ACC0015",
+      "ACC0037",
+      "ACC0003"
+    ],
+    "decoy_ad_phones": [
+      "8314737996",
+      "8075273545"
+    ],
+    "noise_phones": [
+      "8647436713",
+      "9959440640"
+    ],
+    "pass_through_pairs": [
+      [
+        "TXN-0011",
+        "TXN-0013"
+      ],
+      [
+        "TXN-0030",
+        "TXN-0033"
+      ],
+      [
+        "TXN-0056",
+        "TXN-0057"
+      ],
+      [
+        "TXN-0100",
+        "TXN-0102"
+      ],
+      [
+        "TXN-0118",
+        "TXN-0120"
+      ],
+      [
+        "TXN-0128",
+        "TXN-0129"
+      ]
+    ],
+    "structuring_evidence": [
+      "TXN-0065",
+      "TXN-0066",
+      "TXN-0067",
+      "TXN-0069"
+    ],
+    "trap_person_ids": [
+      "T015",
+      "T016"
+    ],
+    "victim_person_ids": [
+      "T017",
+      "T018",
+      "T019",
+      "T020",
+      "T021"
+    ]
+  },
+  "golden_hour": {
+    "centroid": [
+      21.21834,
+      81.34172
+    ],
+    "missing_ids": [
+      "MP-01",
+      "MP-02",
+      "MP-03",
+      "MP-04",
+      "MP-05"
+    ],
+    "radius_km": 3,
+    "window_hours": 24
+  },
+  "groups": {
+    "A": [
+      "T004",
+      "T005",
+      "T006",
+      "T007",
+      "T008"
+    ],
+    "B": [
+      "T009",
+      "T010",
+      "T011",
+      "T012",
+      "T013"
+    ],
+    "leaders": [
+      "T002",
+      "T003"
+    ]
+  },
+  "identity_groups": [
+    {
+      "person_id": "T001",
+      "record_ids": [
+        "R0019",
+        "R0030",
+        "R0064"
+      ],
+      "role": "broker"
+    },
+    {
+      "person_id": "T002",
+      "record_ids": [
+        "R0013",
+        "R0069"
+      ],
+      "role": "leader"
+    },
+    {
+      "person_id": "T003",
+      "record_ids": [
+        "R0045",
+        "R0054"
+      ],
+      "role": "leader"
+    },
+    {
+      "person_id": "T004",
+      "record_ids": [
+        "R0010",
+        "R0025"
+      ],
+      "role": "recruiter"
+    },
+    {
+      "person_id": "T005",
+      "record_ids": [
+        "R0032",
+        "R0043"
+      ],
+      "role": "recruiter"
+    },
+    {
+      "person_id": "T006",
+      "record_ids": [
+        "R0016",
+        "R0056"
+      ],
+      "role": "spotter"
+    },
+    {
+      "person_id": "T007",
+      "record_ids": [
+        "R0036"
+      ],
+      "role": "spotter"
+    },
+    {
+      "person_id": "T008",
+      "record_ids": [
+        "R0020"
+      ],
+      "role": "recruiter"
+    },
+    {
+      "person_id": "T009",
+      "record_ids": [
+        "R0005",
+        "R0071"
+      ],
+      "role": "driver"
+    },
+    {
+      "person_id": "T010",
+      "record_ids": [
+        "R0065"
+      ],
+      "role": "transit"
+    },
+    {
+      "person_id": "T011",
+      "record_ids": [
+        "R0029",
+        "R0033"
+      ],
+      "role": "finance"
+    },
+    {
+      "person_id": "T012",
+      "record_ids": [
+        "R0015",
+        "R0024"
+      ],
+      "role": "finance"
+    },
+    {
+      "person_id": "T013",
+      "record_ids": [
+        "R0074"
+      ],
+      "role": "transit"
+    },
+    {
+      "person_id": "T014",
+      "record_ids": [
+        "R0022"
+      ],
+      "role": "decoy"
+    },
+    {
+      "person_id": "T015",
+      "record_ids": [
+        "R0039"
+      ],
+      "role": "trap"
+    },
+    {
+      "person_id": "T016",
+      "record_ids": [
+        "R0042"
+      ],
+      "role": "trap"
+    },
+    {
+      "person_id": "T017",
+      "record_ids": [
+        "R0062"
+      ],
+      "role": "victim"
+    },
+    {
+      "person_id": "T018",
+      "record_ids": [
+        "R0007"
+      ],
+      "role": "victim"
+    },
+    {
+      "person_id": "T019",
+      "record_ids": [
+        "R0068"
+      ],
+      "role": "victim"
+    },
+    {
+      "person_id": "T020",
+      "record_ids": [
+        "R0066"
+      ],
+      "role": "victim"
+    },
+    {
+      "person_id": "T021",
+      "record_ids": [
+        "R0050"
+      ],
+      "role": "victim"
+    },
+    {
+      "person_id": "T022",
+      "record_ids": [
+        "R0061"
+      ],
+      "role": "companion"
+    },
+    {
+      "person_id": "T023",
+      "record_ids": [
+        "R0003"
+      ],
+      "role": "companion"
+    },
+    {
+      "person_id": "T024",
+      "record_ids": [
+        "R0023"
+      ],
+      "role": "companion"
+    },
+    {
+      "person_id": "T025",
+      "record_ids": [
+        "R0051"
+      ],
+      "role": "companion"
+    },
+    {
+      "person_id": "T026",
+      "record_ids": [
+        "R0040",
+        "R0058"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T027",
+      "record_ids": [
+        "R0011",
+        "R0014"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T028",
+      "record_ids": [
+        "R0004",
+        "R0037"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T029",
+      "record_ids": [
+        "R0034",
+        "R0072"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T030",
+      "record_ids": [
+        "R0002"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T031",
+      "record_ids": [
+        "R0026"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T032",
+      "record_ids": [
+        "R0047"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T033",
+      "record_ids": [
+        "R0028"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T034",
+      "record_ids": [
+        "R0031"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T035",
+      "record_ids": [
+        "R0052"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T036",
+      "record_ids": [
+        "R0035"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T037",
+      "record_ids": [
+        "R0006"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T038",
+      "record_ids": [
+        "R0017"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T039",
+      "record_ids": [
+        "R0008"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T040",
+      "record_ids": [
+        "R0060"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T041",
+      "record_ids": [
+        "R0049"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T042",
+      "record_ids": [
+        "R0057"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T043",
+      "record_ids": [
+        "R0021"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T044",
+      "record_ids": [
+        "R0053"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T045",
+      "record_ids": [
+        "R0059"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T046",
+      "record_ids": [
+        "R0048"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T047",
+      "record_ids": [
+        "R0009"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T048",
+      "record_ids": [
+        "R0012"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T049",
+      "record_ids": [
+        "R0041"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T050",
+      "record_ids": [
+        "R0001"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T051",
+      "record_ids": [
+        "R0063"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T052",
+      "record_ids": [
+        "R0046"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T053",
+      "record_ids": [
+        "R0067"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T054",
+      "record_ids": [
+        "R0018"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T055",
+      "record_ids": [
+        "R0055"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T056",
+      "record_ids": [
+        "R0038"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T057",
+      "record_ids": [
+        "R0073"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T058",
+      "record_ids": [
+        "R0027"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T059",
+      "record_ids": [
+        "R0070"
+      ],
+      "role": "background"
+    },
+    {
+      "person_id": "T060",
+      "record_ids": [
+        "R0044"
+      ],
+      "role": "background"
+    }
+  ],
+  "money_chain": [
+    "ACC0013",
+    "ACC0029",
+    "ACC0046",
+    "ACC0012"
+  ],
+  "pass_through_account": "ACC0029",
+  "ring_members": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013"
+  ],
+  "ring_vehicle_plate": "CG04MG5088",
+  "ring_vehicle_toll_evidence": "TR-0025",
+  "seed": 42
+}

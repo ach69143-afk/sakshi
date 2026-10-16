@@ -1,0 +1,75 @@
+record_id,evidence_id,name,dob,address,source_doc,phone_raw,vehicle_raw,org_id
+R0001,PR-0001,Mukesh Jain,1959-11-21,"71, Nehru Nagar, Bhilai",HOTEL,9774964990,,
+R0002,PR-0002,Anil Varma,1988-03-13,"12, Kumhari, Durg",CDR,+91 77298-06990,,
+R0003,PR-0003,Lata Bhoyar,2009-11-23,"Risali, Bhilai",HOTEL,6727889579,,
+R0004,PR-0004,Sanjay Dewangana,1960-05-19,,BANK,+91 95339-63605,,
+R0005,PR-0005,Prakash Yadav,1983-03-30,"Power House Chowk, Durg",CDR,+91 65982-62045,CG-04-MG-5088,O02
+R0006,PR-0006,Durga Kashyap,1982-01-08,"28, Camp-1, Durg",CDR,+91 78498-77694,,O05
+R0007,PR-0007,Riya Markam,2009-05-12,"Basti near Supela Market, Bhilai",FIR-02,+91 64436-99577,,
+R0008,PR-0008,Shanti Rathore,1996-06-08,"52, Pulgaon, Durg",HOTEL,8075273545,,
+R0009,PR-0009,Kavita Yadav,2001-08-07,"98, Smriti Nagar, Bhilai",CDR,+91 87775-20471,,
+R0010,PR-0010,Ramesh Sahu,1986-12-01,"Near Supela Market, Bhilai",CDR,6183842513,CG-08-KF-8179,O01
+R0011,PR-0011,Shri Dilip Tiwari,,,CDR,+91 88760-36690,,
+R0012,PR-0012,Sarita Tandon,1995-12-18,"70, Civic Center, Bhilai",CDR,066719 02294,,
+R0013,PR-0013,D. K. Chandrakar,1975-02-19,"Sector 6, Bhilai",BANK,+91 71712-74846,,
+R0014,PR-0014,Dilip Tiwari,1965-10-19,"55, Sector 9, Bhilai",HOTEL,8876036690,,
+R0015,PR-0015,Harish Aggarwal,1980-11-14,"Station Rd, Durg",CDR,084330 36541,,
+R0016,PR-0016,K. Mishra,,Smriti Nagar,FIR-07,071465 84044,,
+R0017,PR-0017,Chhaya Pandey,1999-03-02,"34, Smriti Nagar, Bhilai",CDR,8314737996,,O06
+R0018,PR-0018,Bharti Thakur,1994-11-18,"94, Sector 9, Bhilai",BANK,7242102499,,
+R0019,PR-0019,Suresh alias Bhura,,,FIR-09,+91 87710-93248,cg 04 up 2527,O02
+R0020,PR-0020,Anita Verma,1988-10-05,"Civic Center, Bhilai",BANK,082786 80112,,O01
+R0021,PR-0021,Durga Tiwari,1984-05-01,"21, Khursipar, Bhilai",BANK,+91 85744-43135,,
+R0022,PR-0022,Mahesh Gupta,1972-03-08,"Gupta General Store, Station Road, Durg",CDR,+91 69655-69816,cg 24 gj 1727,O03
+R0023,PR-0023,Mamta Ratre,2008-07-05,"Pulgaon, Durg",HOTEL,9872774348,,
+R0024,PR-0024,Harish Agrawal,1980-11-14,"Station Road, Durg",BANK,8433036541,CG08MX9346,O04
+R0025,PR-0025,Ramesh Kumar Sahoo,,"Supela, Bhilai",CDR,097378 26398,,O01
+R0026,PR-0026,Yogesh Chandrakar,1981-09-24,"94, Khursipar, Bhilai",CDR,066272 04653,CG10LL7211,
+R0027,PR-0027,Bhupendra Kurre,1993-12-24,"22, Kumhari, Durg",CDR,094296 71756,,
+R0028,PR-0028,Mukesh Verma,1978-06-12,"11, Nehru Nagar, Bhilai",BANK,+91 73092-32719,CG07RZ5198,
+R0029,PR-0029,Santosh Bagel,,,CDR,092787 55886,,
+R0030,PR-0030,Sureshchandra Rathore,1984-06-11,"Plot 14, Nehru Nagar East, Bhilai",BANK,+91 98820-81219,CG-04-YH-7615,O02
+R0031,PR-0031,Devendra Pandey,1990-09-24,"48, Pulgaon, Durg",CDR,+91 82991-24190,CG08VY7149,
+R0032,PR-0032,Puja Dewangan,,Kohka Bhilai,CDR,+91 89808-41241,,
+R0033,PR-0033,Santosh Baghel,1985-05-25,"Sector 3, Bhilai",BANK,074216 07337,,O04
+R0034,PR-0034,Ashok Sonwani,1958-08-01,"90, Padmanabhpur, Durg",CDR,077346 70656,,
+R0035,PR-0035,Ashok Pandey,1977-09-14,"42, Sector 9, Bhilai",HOTEL,8185067165,cg 10 ze 8135,O05
+R0036,PR-0036,Sunil Netam,1992-01-28,"Risali, Bhilai",CDR,+91 94016-40052,,
+R0037,PR-0037,Sanjay Dewangan,1960-05-19,"26, Padmanabhpur, Durg",HOTEL,9705466889,,
+R0038,PR-0038,Pankaj Banjare,1982-12-28,"32, Supela, Bhilai",BANK,091906 59401,,
+R0039,PR-0039,Rahul Sharma,1991-03-14,"Sector 9, Bhilai",BANK,090883 56159,,
+R0040,PR-0040,J. Kurre,,,BANK,6223623166,,
+R0041,PR-0041,Sachin Pandey,1991-07-03,"67, Khursipar, Bhilai",BANK,+91 63186-99938,,
+R0042,PR-0042,Rahul Sharma,1987-11-02,"Kumhari, Durg",CDR,8148465648,,
+R0043,PR-0043,Pooja Dewangan,1993-04-22,"Kohka, Bhilai",BANK,8980841241,,O01
+R0044,PR-0044,Anil Verma,1963-06-21,"41, Sector 9, Bhilai",HOTEL,+91 67154-51680,,
+R0045,PR-0045,Vikram Singh Thakur,1979-09-03,"Camp-2, Durg",CDR,084353 46247,cg 08 ca 8508,
+R0046,PR-0046,Sanjay Tandon,2001-07-20,"70, Smriti Nagar, Bhilai",CDR,7067974034,,
+R0047,PR-0047,Tarun Yadav,1984-04-20,"80, Pulgaon, Durg",HOTEL,+91 86417-08053,CG-04-XB-1508,
+R0048,PR-0048,Ajay Tiwari,1990-07-26,"31, Sector 9, Bhilai",BANK,074008 42710,,
+R0049,PR-0049,Sandeep Sonwani,1995-11-16,"9, Kumhari, Durg",HOTEL,+91 98377-70143,,
+R0050,PR-0050,Kiran Sonwani,2002-06-15,"Sector 7, Bhilai",FIR-05,6769367632,,
+R0051,PR-0051,Jyoti Lahre,2010-02-14,"Supela, Bhilai",HOTEL,093471 43455,,
+R0052,PR-0052,Kavita Chandrakar,1973-05-09,"94, Nehru Nagar, Bhilai",HOTEL,+91 93193-14919,CG04MU8018,
+R0053,PR-0053,Shanti Dewangan,1974-01-11,"14, Station Road, Durg",HOTEL,6823374989,,
+R0054,PR-0054,Vikram S. Thakur,,"Camp 2, Durg",BANK,8435346247,,
+R0055,PR-0055,Dilip Jain,1967-10-21,"25, Civic Center, Bhilai",CDR,+91 87174-64887,,
+R0056,PR-0056,Karan Mishra,1990-07-17,"Smriti Nagar, Bhilai",HOTEL,6824493534,,
+R0057,PR-0057,Savita Dewangan,1980-07-22,"2, Kohka, Bhilai",HOTEL,093495 78856,,
+R0058,PR-0058,Jagdish Kurre,1967-12-28,"4, Power House, Durg",FIR-08,6223623166,,
+R0059,PR-0059,Geeta Soni,1972-06-29,"68, Sector 6, Bhilai",HOTEL,+91 81343-52408,,
+R0060,PR-0060,Geeta Dewangan,2002-04-11,"97, Sector 9, Bhilai",CDR,+91 89480-83136,,
+R0061,PR-0061,Seema Kanwar,2007-04-18,"Kumhari, Durg",HOTEL,6163287083,,
+R0062,PR-0062,Neha Kosre,2007-02-20,"Ward 12, Nehru Nagar, Bhilai",FIR-01,7366299468,,
+R0063,PR-0063,Mukesh Gupta,1963-04-14,"9, Sector 9, Bhilai",CDR,063341 23281,,
+R0064,PR-0064,Suresh Rathod,,"Nehru Nagar, Bhilai",FIR-08,096038 59770,CG07JU3146,O02
+R0065,PR-0065,Rohit Pandey,1991-08-12,"Pulgaon, Durg",BANK,+91 65869-23226,CG-04-FL-7745,O02
+R0066,PR-0066,Anjali Dhruv,2006-01-09,"Smriti Nagar Colony, Bhilai",FIR-04,063433 20037,,
+R0067,PR-0067,Poonam Sonwani,2000-06-07,"25, Kohka, Bhilai",BANK,087134 93618,,
+R0068,PR-0068,Sangeeta Nishad,2004-08-30,"Kohka Village Road, Bhilai",FIR-03,9387214895,,
+R0069,PR-0069,Dinesh Kumar Chandrakar,1975-02-19,"H.No. 22, Sector 6, Bhilai",BANK,+91 69399-09169,,
+R0070,PR-0070,Shanti Sonwani,1998-10-27,"55, Maroda, Bhilai",BANK,+91 85125-67468,,
+R0071,PR-0071,P. Yadav,,"Power House, Durg",FIR-10,065982 62045,CG-04-MG-5088,
+R0072,PR-0072,A. Sonwani,,,HOTEL,096627 02895,,
+R0073,PR-0073,Rekha Verma,1959-04-29,"97, Nehru Nagar, Bhilai",CDR,079904 90278,,
+R0074,PR-0074,Deepak Sinha,1989-06-09,"Dhamtari Road, Durg",CDR,9850142940,,O02

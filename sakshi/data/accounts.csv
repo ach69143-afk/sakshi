@@ -1,0 +1,47 @@
+account_id,owner_record_id,opened_date,bank_name
+ACC0001,R0053,2022-08-10,Mahanadi Cooperative Bank
+ACC0002,R0064,2015-12-17,Kharun Bank of Commerce
+ACC0003,R0045,2023-03-16,Shivnath Gramin Bank
+ACC0004,R0047,2023-08-06,Indrawati Urban Bank
+ACC0005,R0041,2019-01-30,Kharun Bank of Commerce
+ACC0006,R0057,2018-09-23,Hasdeo Savings Bank
+ACC0007,R0020,2024-08-10,Indrawati Urban Bank
+ACC0008,R0012,2013-01-25,Kharun Bank of Commerce
+ACC0009,R0037,2014-03-21,Shivnath Gramin Bank
+ACC0010,R0008,2013-05-06,Shivnath Gramin Bank
+ACC0011,R0052,2017-09-14,Kharun Bank of Commerce
+ACC0012,R0069,2014-02-27,Kharun Bank of Commerce
+ACC0013,R0010,2019-07-04,Hasdeo Savings Bank
+ACC0014,R0017,2020-02-05,Hasdeo Savings Bank
+ACC0015,R0065,2024-07-26,Indrawati Urban Bank
+ACC0016,R0043,2017-10-12,Hasdeo Savings Bank
+ACC0017,R0035,2012-06-11,Kharun Bank of Commerce
+ACC0018,R0039,2014-09-20,Hasdeo Savings Bank
+ACC0019,R0005,2016-06-17,Indrawati Urban Bank
+ACC0020,R0074,2024-11-30,Indrawati Urban Bank
+ACC0021,R0026,2015-11-30,Hasdeo Savings Bank
+ACC0022,R0006,2019-12-19,Hasdeo Savings Bank
+ACC0023,R0046,2023-06-13,Kharun Bank of Commerce
+ACC0024,R0001,2022-01-09,Mahanadi Cooperative Bank
+ACC0025,R0018,2020-07-18,Indrawati Urban Bank
+ACC0026,R0021,2018-06-05,Kharun Bank of Commerce
+ACC0027,R0056,2015-04-01,Shivnath Gramin Bank
+ACC0028,R0048,2019-07-26,Kharun Bank of Commerce
+ACC0029,R0033,2024-10-26,Kharun Bank of Commerce
+ACC0030,R0034,2013-08-07,Mahanadi Cooperative Bank
+ACC0031,R0049,2015-08-20,Hasdeo Savings Bank
+ACC0032,R0060,2017-02-12,Hasdeo Savings Bank
+ACC0033,R0014,2019-02-08,Hasdeo Savings Bank
+ACC0034,R0042,2017-12-31,Indrawati Urban Bank
+ACC0035,R0063,2020-11-13,Hasdeo Savings Bank
+ACC0036,R0059,2021-12-23,Hasdeo Savings Bank
+ACC0037,R0024,2023-09-07,Kharun Bank of Commerce
+ACC0038,R0058,2021-04-14,Shivnath Gramin Bank
+ACC0039,R0028,2016-02-15,Mahanadi Cooperative Bank
+ACC0040,R0002,2014-10-21,Shivnath Gramin Bank
+ACC0041,R0036,2017-08-23,Mahanadi Cooperative Bank
+ACC0042,R0009,2016-09-21,Shivnath Gramin Bank
+ACC0043,R0031,2020-11-26,Mahanadi Cooperative Bank
+ACC0044,R0022,2014-02-21,Mahanadi Cooperative Bank
+ACC0045,R0067,2022-08-12,Indrawati Urban Bank
+ACC0046,R0030,2013-03-16,Mahanadi Cooperative Bank

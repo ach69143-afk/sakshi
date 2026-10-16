@@ -1,0 +1,32 @@
+{
+  "case_a": "SP-014",
+  "case_b": "SP-021",
+  "seed": 7,
+  "planted_overlaps": [
+    {
+      "type": "ad_phone",
+      "value": "9737826398",
+      "raw_value": "+91 97378-26398",
+      "description": "The SP-014 fake-ad contact number used as bait in SP-021"
+    },
+    {
+      "type": "account",
+      "value": "ACC0029",
+      "raw_value": "ACC0029",
+      "description": "The SP-014 pass-through account number appearing in SP-021"
+    },
+    {
+      "type": "broker_phone",
+      "value": "8771093248",
+      "raw_value": "+91 87710-93248",
+      "description": "One broker phone returning under new alias name in SP-021"
+    }
+  ],
+  "decoy": {
+    "type": "phone",
+    "value": "7849877694",
+    "raw_value": "+91 78498-77694",
+    "description": "Taxi stand number appearing in both cases with high call volume",
+    "suppressed": true
+  }
+}

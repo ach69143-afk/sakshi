@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Roboto+Condensed:wght@400;600;700&display=swap');
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #07080a;
+  --panel: #0e1013;
+  --panel2: #14171b;
+  --border: #2b1416;
+  --text: #e8eaed;
+  --muted: #8a8f98;
+  --accent: #ef2b2d;
+  --accent-dim: #7f1d1d;
+  --accent-glow: rgba(239, 43, 45, 0.35);
+}
+
+@layer base {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Roboto Condensed", "Rajdhani", Inter, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    selection-background-color: rgba(239, 43, 45, 0.4);
+    selection-color: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Rajdhani", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+}
+
+/* Custom workbench scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #07080a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b1416;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ef2b2d;
+}
+
+/* Cytoscape container reset */
+.cytoscape-canvas-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: #07080a;
+}
+
+/* Leaflet dark theme override with required tile inversion filter */
+.leaflet-container {
+  background: #07080a !important;
+  font-family: inherit;
+}
+
+.leaflet-tile-pane, .map-backdrop-tiles {
+  filter: invert(1) hue-rotate(180deg) brightness(0.55) contrast(1.15) saturate(0.25) !important;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: #0e1013 !important;
+  color: #e8eaed !important;
+  border: 1px solid #2b1416 !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.8), 0 0 12px rgba(239, 43, 45, 0.25) !important;
+  border-radius: 8px !important;
+}
+
+/* Subtle glowing pulse for alert nodes / indicators */
+@keyframes red-glow-pulse {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 12px rgba(239, 43, 45, 0.4);
+  }
+  50% {
+    opacity: 0.75;
+    box-shadow: 0 0 24px rgba(239, 43, 45, 0.8);
+  }
+}
+
+.animate-glow {
+  animation: red-glow-pulse 2s infinite ease-in-out;
+}
+
+/* Card subtle red glow on HIGH severity cards */
+.card-high-glow {
+  border-color: rgba(239, 43, 45, 0.5) !important;
+  box-shadow: 0 0 20px -3px rgba(239, 43, 45, 0.35) !important;
+}
+
+/* Red active indicator bar for active navigation */
+.active-nav-item {
+  border-left: 3px solid #ef2b2d !important;
+  background: rgba(239, 43, 45, 0.12) !important;
+  color: #ffffff !important;
+}
+
+/* Monospace evidence chip styling */
+.evidence-chip {
+  font-family: "JetBrains Mono", Menlo, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: #ff9496;
+  background: rgba(239, 43, 45, 0.12);
+  border: 1px solid rgba(239, 43, 45, 0.4);
+  padding: 1px 6px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+.evidence-chip:hover {
+  background: rgba(239, 43, 45, 0.25);
+  border-color: #ef2b2d;
+  color: #ffffff;
+}
+
+/* Pulse animation for 3km hotspot circle */
+@keyframes circle-pulse {
+  0% {
+    stroke-dashoffset: 0;
+    opacity: 0.8;
+  }
+  50% {
+    stroke-dashoffset: 20;
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 40;
+    opacity: 0.8;
+  }
+}
+
+.pulsing-circle {
+  animation: circle-pulse 4s linear infinite;
+}

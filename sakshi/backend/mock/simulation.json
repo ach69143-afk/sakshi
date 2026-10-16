@@ -1,0 +1,40 @@
+{
+  "P-BROKER-01": {
+    "before": {
+      "components": 1,
+      "largest": 48,
+      "efficiency": 0.31
+    },
+    "after": {
+      "components": 4,
+      "largest": 19,
+      "efficiency": 0.09
+    },
+    "delta_pct": -71.0,
+    "shattered_components": [
+      {"name": "Cluster A (Durg / Bhilai Logistics)", "node_count": 19, "color": "#0d9488"},
+      {"name": "Cluster B (Nagpur Receiver Group)", "node_count": 16, "color": "#f59e0b"},
+      {"name": "Pass-through Mule Account Chain", "node_count": 4, "color": "#8b5cf6"},
+      {"name": "Isolated Peripheral Nodes", "node_count": 8, "color": "#64748b"}
+    ],
+    "explanation": "P-BROKER-01 ('Golden Bhai') is the critical articulation point. Neutralizing this node fragments the network into 4 disconnected components and drops global information efficiency by 71%."
+  },
+  "default": {
+    "before": {
+      "components": 1,
+      "largest": 48,
+      "efficiency": 0.31
+    },
+    "after": {
+      "components": 2,
+      "largest": 46,
+      "efficiency": 0.28
+    },
+    "delta_pct": -9.7,
+    "shattered_components": [
+      {"name": "Core Network", "node_count": 46, "color": "#0d9488"},
+      {"name": "Isolated Nodes", "node_count": 1, "color": "#64748b"}
+    ],
+    "explanation": "Removing this peripheral entity creates minimal topology disruption. Core inter-cluster throughput remains intact."
+  }
+}

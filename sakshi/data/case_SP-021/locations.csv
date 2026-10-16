@@ -1,0 +1,11 @@
+location_id,name,lat,lon,type
+LOC-RP-01,"Jaistambh Chowk, Raipur",21.2379,81.6337,commercial
+LOC-RP-02,"Telibandha Lake, Raipur",21.2333,81.6617,transit
+LOC-RP-03,Pandri Bus Terminal,21.256,81.652,transport
+LOC-RP-04,Tatibandh Toll Plaza NH-53,21.2588,81.5542,toll
+LOC-RP-05,Naya Raipur Expressway,21.161,81.787,highway
+LOC-RP-06,"Devendra Nagar, Raipur",21.252,81.641,residential
+LOC-RP-07,"Shankar Nagar, Raipur",21.244,81.668,residential
+LOC-RP-08,Hotel Green Park Raipur,21.24,81.645,hotel
+LOC-RP-09,Raipur Junction Rly Station,21.257,81.629,transport
+LOC-RP-10,Mandir Hasaud Junction,21.221,81.758,transit

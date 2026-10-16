@@ -1,0 +1,62 @@
+[
+  {
+    "id": "MQ-001",
+    "score": 0.88,
+    "status": "pending",
+    "records": [
+      {
+        "record_id": "REC-CHR-01",
+        "name": "Vikas S. ('Golden Bhai')",
+        "phone": "+91 98271 44021",
+        "plate": "CG-07-BW-4912",
+        "source": "FIR-07-S3 Witness Log"
+      },
+      {
+        "record_id": "REC-TEL-02",
+        "name": "V. K. Sonkar",
+        "phone": "+91 98271 44099",
+        "plate": "CG-07-BW-4912",
+        "source": "Airtel CAF Registration"
+      },
+      {
+        "record_id": "REC-TOLL-03",
+        "name": "Vikram S.",
+        "phone": "+91 98271 44021",
+        "plate": "MH-31-FA-8819",
+        "source": "Kumhari FASTag Audit"
+      }
+    ],
+    "reasons": [
+      {"factor": "Name phonetics & token overlap", "value": 0.74},
+      {"factor": "Shared FASTag vehicle registration (CG-07-BW-4912)", "value": 0.95},
+      {"factor": "Collocated cellular IMEI history (Airtel SIM swap)", "value": 0.89},
+      {"factor": "Shared HDFC current account beneficiary identifier", "value": 0.92}
+    ]
+  },
+  {
+    "id": "MQ-002",
+    "score": 0.76,
+    "status": "pending",
+    "records": [
+      {
+        "record_id": "REC-AUTO-11",
+        "name": "Sunil Baghel",
+        "phone": "+91 97531 33491",
+        "plate": "CG-07-T-1402",
+        "source": "RTO Durg Registration"
+      },
+      {
+        "record_id": "REC-AUTO-12",
+        "name": "Sunil 'Auto' Bhilai",
+        "phone": "+91 97531 33491",
+        "plate": "CG-07-T-1402",
+        "source": "Civic Center Auto Stand Registry"
+      }
+    ],
+    "reasons": [
+      {"factor": "Exact primary phone match (+91 97531 33491)", "value": 1.0},
+      {"factor": "Shared commercial auto license plate (CG-07-T-1402)", "value": 0.98},
+      {"factor": "Common tower centroid within Bhilai Sector 6", "value": 0.62}
+    ]
+  }
+]

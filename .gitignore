@@ -1,0 +1,30 @@
+# Python
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env
+
+# Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+
+# Logs & temp
+*.log
+**/tasks/
+.system_generated/
+backups/
+**/backups/
+
+# IDE / System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

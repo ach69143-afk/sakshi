@@ -1,0 +1,13 @@
+location_id,name,lat,lon,type
+L01,Bhilai Civic Center,21.21700,81.34500,tower
+L02,Supela Market,21.22050,81.33950,tower
+L03,Kohka Chowk,21.20550,81.33300,tower
+L04,Smriti Nagar,21.22900,81.34700,tower
+L05,Durg Railway Station,21.19000,81.28300,hub
+L06,Toll Plaza near Durg (NH-53),21.16200,81.25300,toll
+L07,"Hotel Sunrise Lodge, Supela",21.21850,81.34100,hotel
+L08,"Hotel Raj Palace, Durg",21.19250,81.28600,hotel
+L09,Raipur Bus Stand,21.23700,81.63100,hub
+L10,Nagpur Railway Station,21.15200,79.08800,hub
+L11,"Nehru Nagar, Bhilai",21.21200,81.36400,home
+L12,"Power House Chowk, Durg",21.19700,81.29200,tower

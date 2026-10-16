@@ -1,0 +1,106 @@
+{
+  "P-BROKER-01__P-B-01": {
+    "score": 0.96,
+    "formula": "1 - prod(1 - w*s)",
+    "components": [
+      {
+        "type": "calls",
+        "count": 14,
+        "weight": 0.45,
+        "s": 0.88,
+        "contribution": 0.39,
+        "evidence_ids": ["CDR-0012", "CDR-0019", "CDR-0044"]
+      },
+      {
+        "type": "transfers",
+        "count": 3,
+        "weight": 0.35,
+        "s": 0.92,
+        "contribution": 0.32,
+        "evidence_ids": ["TXN-0044", "TXN-0081"]
+      },
+      {
+        "type": "co_travel",
+        "count": 2,
+        "weight": 0.20,
+        "s": 0.85,
+        "contribution": 0.17,
+        "evidence_ids": ["TOLL-0019", "ANPR-0091"]
+      }
+    ],
+    "snippets": [
+      {
+        "evidence_id": "FIR-07-S3",
+        "text": "Call logs establish high-frequency nighttime coordination between Vikas S. and Aslam Sheikh immediately preceding dispatch to Nagpur transit lodge."
+      },
+      {
+        "evidence_id": "CDR-0012",
+        "text": "Cellular CDR reveals 3 consecutive handshakes on Kumhari corridor between 00:45 and 01:20 hrs."
+      }
+    ]
+  },
+  "P-BROKER-01__P-A-01": {
+    "score": 0.91,
+    "formula": "1 - prod(1 - w*s)",
+    "components": [
+      {
+        "type": "calls",
+        "count": 19,
+        "weight": 0.50,
+        "s": 0.82,
+        "contribution": 0.41,
+        "evidence_ids": ["CDR-0104", "CDR-0118"]
+      },
+      {
+        "type": "transfers",
+        "count": 4,
+        "weight": 0.30,
+        "s": 0.85,
+        "contribution": 0.26,
+        "evidence_ids": ["TXN-0050", "TXN-0052"]
+      },
+      {
+        "type": "mentions",
+        "count": 2,
+        "weight": 0.20,
+        "s": 0.70,
+        "contribution": 0.14,
+        "evidence_ids": ["WIT-003", "FIR-01-DURG"]
+      }
+    ],
+    "snippets": [
+      {
+        "evidence_id": "FIR-01-DURG",
+        "text": "Local logistics handler Mahesh Kurre was in continuous voice contact with 'Golden' while victims were transported via Supela to Civic Center."
+      }
+    ]
+  },
+  "ACC-01__ACC-02": {
+    "score": 0.94,
+    "formula": "1 - prod(1 - w*s)",
+    "components": [
+      {
+        "type": "transfers",
+        "count": 6,
+        "weight": 0.75,
+        "s": 0.95,
+        "contribution": 0.71,
+        "evidence_ids": ["TXN-0050", "TXN-0051", "TXN-0058"]
+      },
+      {
+        "type": "timing_velocity",
+        "count": 4,
+        "weight": 0.25,
+        "s": 0.92,
+        "contribution": 0.23,
+        "evidence_ids": ["VEL-001", "VEL-004"]
+      }
+    ],
+    "snippets": [
+      {
+        "evidence_id": "TXN-0050",
+        "text": "Immediate pass-through transfer of INR 45,000 from SBI mule account into PNB layer within 6 minutes of deposit."
+      }
+    ]
+  }
+}

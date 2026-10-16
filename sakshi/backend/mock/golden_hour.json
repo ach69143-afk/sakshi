@@ -1,0 +1,66 @@
+{
+  "centroid": [21.2096, 81.3790],
+  "radius_km": 3,
+  "window_hours": 24,
+  "missing": [
+    {
+      "id": "MP-01",
+      "name": "Anjali Sahu",
+      "age": 17,
+      "lat": 21.2112,
+      "lon": 81.3782,
+      "last_seen_time": "2026-09-14T17:30:00Z",
+      "landmark": "Near Sector-6 Central Park Bus Shelter"
+    },
+    {
+      "id": "MP-02",
+      "name": "Priya Verma",
+      "age": 19,
+      "lat": 21.2081,
+      "lon": 81.3820,
+      "last_seen_time": "2026-09-16T18:15:00Z",
+      "landmark": "Civic Center Market Gate 3"
+    },
+    {
+      "id": "MP-03",
+      "name": "Kavita Netam",
+      "age": 16,
+      "lat": 21.2140,
+      "lon": 81.3755,
+      "last_seen_time": "2026-09-19T16:45:00Z",
+      "landmark": "Sector-5 Commercial Complex Corner"
+    },
+    {
+      "id": "MP-04",
+      "name": "Sunita Markam",
+      "age": 18,
+      "lat": 21.2065,
+      "lon": 81.3768,
+      "last_seen_time": "2026-09-21T17:05:00Z",
+      "landmark": "Civic Center Open Theater Footpath"
+    },
+    {
+      "id": "MP-05",
+      "name": "Pooja Markam",
+      "age": 17,
+      "lat": 21.2069,
+      "lon": 81.3772,
+      "last_seen_time": "2026-09-21T17:10:00Z",
+      "landmark": "Civic Center Open Theater Footpath"
+    }
+  ],
+  "burner": {
+    "number": "+91 98930 11902",
+    "seen_near": ["MP-01", "MP-02", "MP-04", "MP-05"],
+    "deactivated_after": true,
+    "left_city_via_toll": true,
+    "last_seen_toll": "Kumhari Toll Plaza NH-53 at 01:10 hrs",
+    "notes": "Cellular tower presence registered within 180m of missing individuals during their golden hour window; permanently disconnected post Kumhari toll crossing."
+  },
+  "bait": {
+    "number": "+91 97520 88319",
+    "contacted_by": 5,
+    "ad_campaign": "Nagpur Garments Tailoring Assistant (Monthly INR 14,000 + Room)",
+    "notes": "All 5 missing persons contacted this bait number within 48h prior to disappearance."
+  }
+}

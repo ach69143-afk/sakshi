@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {"id": "P-BROKER-01", "label": "Vikas S. ('Golden')", "type": "person", "community": 3, "priority": 0.94, "role_label": "Inter-cluster Broker", "aliases": ["Golden Bhai", "V. K. Sonkar", "Vikram S."], "phone": "+91 98271 44021"},
+    {"id": "P-ALIAS-01", "label": "Golden Bhai (Raipur)", "type": "person", "community": 3, "priority": 0.81, "role_label": "Unmerged Profile", "aliases": ["Golden Bhai"], "phone": "+91 98271 44021"},
+    {"id": "P-ALIAS-02", "label": "V. K. Sonkar", "type": "person", "community": 3, "priority": 0.79, "role_label": "Unmerged Profile", "aliases": ["V. K. Sonkar"], "phone": "+91 98271 44099"},
+    {"id": "P-ALIAS-03", "label": "Vikram S. (Kumhari)", "type": "person", "community": 3, "priority": 0.76, "role_label": "Unmerged Profile", "aliases": ["Vikram S."], "phone": "+91 98271 44021"},
+
+    {"id": "P-A-01", "label": "Mahesh Kurre", "type": "person", "community": 1, "priority": 0.78, "role_label": "Local Handler (Durg)", "aliases": ["Makhan"], "phone": "+91 94252 11094"},
+    {"id": "P-A-02", "label": "Dinesh Tandi", "type": "person", "community": 1, "priority": 0.72, "role_label": "Field Scout", "aliases": ["Dinu"], "phone": "+91 94060 22314"},
+    {"id": "P-A-03", "label": "Sunil 'Auto' Baghel", "type": "person", "community": 1, "priority": 0.65, "role_label": "Transit Driver", "aliases": ["Auto Sunil"], "phone": "+91 97531 33491"},
+    {"id": "P-A-04", "label": "Santosh Yadav", "type": "person", "community": 1, "priority": 0.58, "role_label": "Local Spotter", "aliases": [], "phone": "+91 91114 55021"},
+    {"id": "P-A-05", "label": "Hemant Banjare", "type": "person", "community": 1, "priority": 0.61, "role_label": "Cash Courier", "aliases": ["Hemmu"], "phone": "+91 93012 88712"},
+
+    {"id": "P-SHOP-01", "label": "Ramesh Gupta (Paan/Kirana)", "type": "person", "community": 1, "priority": 0.12, "role_label": "Decoy / Incidental Contact", "aliases": ["Gupta Kirana Sec-6"], "phone": "+91 98261 00214"},
+
+    {"id": "P-B-01", "label": "Aslam Sheikh ('Bade')", "type": "person", "community": 2, "priority": 0.89, "role_label": "Regional Receiver (Nagpur)", "aliases": ["Bade Bhai", "Aslam Seth"], "phone": "+91 99234 88102"},
+    {"id": "P-B-02", "label": "Raju Gaikwad", "type": "person", "community": 2, "priority": 0.74, "role_label": "Safehouse Custodian", "aliases": ["Raju Mama"], "phone": "+91 98902 44109"},
+    {"id": "P-B-03", "label": "Mohan Kapse", "type": "person", "community": 2, "priority": 0.69, "role_label": "Interstate Carrier", "aliases": [], "phone": "+91 97640 11984"},
+    {"id": "P-B-04", "label": "Suraj Meshram", "type": "person", "community": 2, "priority": 0.63, "role_label": "Forged Docs Agent", "aliases": ["Suraj Press"], "phone": "+91 98221 66750"},
+    {"id": "P-B-05", "label": "Farhan Qureshi", "type": "person", "community": 2, "priority": 0.59, "role_label": "Transit Coordinator", "aliases": [], "phone": "+91 94228 33201"},
+
+    {"id": "MP-01", "label": "Anjali Sahu (17F)", "type": "person", "community": 4, "priority": 0.85, "role_label": "Missing Person (SP-014/1)", "aliases": [], "phone": "+91 96172 00114"},
+    {"id": "MP-02", "label": "Priya Verma (19F)", "type": "person", "community": 4, "priority": 0.83, "role_label": "Missing Person (SP-014/2)", "aliases": [], "phone": "+91 97551 11209"},
+    {"id": "MP-03", "label": "Kavita Netam (16F)", "type": "person", "community": 4, "priority": 0.82, "role_label": "Missing Person (SP-014/3)", "aliases": [], "phone": "+91 99268 22301"},
+    {"id": "MP-04", "label": "Sunita Markam (18F)", "type": "person", "community": 4, "priority": 0.84, "role_label": "Missing Person (SP-014/4)", "aliases": [], "phone": "+91 94076 44190"},
+    {"id": "MP-05", "label": "Pooja Markam (17F)", "type": "person", "community": 4, "priority": 0.84, "role_label": "Missing Person (SP-014/5)", "aliases": [], "phone": "+91 94076 44191"},
+
+    {"id": "PH-BURNER-01", "label": "Burner IMSI-404-71", "type": "phone", "community": 3, "priority": 0.91, "role_label": "Proximity Burner Phone", "aliases": ["Ephemeral 9893"], "phone": "+91 98930 11902"},
+    {"id": "PH-BAIT-01", "label": "Job Helpline Number", "type": "phone", "community": 1, "priority": 0.77, "role_label": "Digital Bait Terminal", "aliases": [], "phone": "+91 97520 88319"},
+    {"id": "PH-A-01", "label": "Mahesh Airtel Primary", "type": "phone", "community": 1, "priority": 0.45, "role_label": "Personal Line", "aliases": [], "phone": "+91 94252 11094"},
+    {"id": "PH-B-01", "label": "Aslam Vi Primary", "type": "phone", "community": 2, "priority": 0.52, "role_label": "Encrypted Line", "aliases": [], "phone": "+91 99234 88102"},
+
+    {"id": "AD-BAIT-01", "label": "Pamphlet: 'Nagpur Garments Job'", "type": "ad", "community": 1, "priority": 0.75, "role_label": "Lure Advertisement", "aliases": ["Flyer-Sec6"], "phone": ""},
+    {"id": "AD-BAIT-02", "label": "FB Post: 'Hospital Attendant urgently'", "type": "ad", "community": 1, "priority": 0.70, "role_label": "Online Bait Lure", "aliases": [], "phone": ""},
+
+    {"id": "ORG-RECRUIT-01", "label": "Apex Placement Hub", "type": "org", "community": 1, "priority": 0.68, "role_label": "Unregistered Shell Firm", "aliases": ["Apex Career Soln"], "phone": "+91 78822 99011"},
+    {"id": "ORG-HOTEL-01", "label": "Rajdhani Lodge Nagpur", "type": "org", "community": 2, "priority": 0.71, "role_label": "Transit Safehouse Facility", "aliases": ["Lodge 402"], "phone": "+91 71225 44091"},
+    {"id": "ORG-NGO-01", "label": "Parijat Sewa Sansthan", "type": "org", "community": 1, "priority": 0.41, "role_label": "Ostensibly Registered Trust", "aliases": [], "phone": "+91 78823 11840"},
+
+    {"id": "ACC-01", "label": "SBI A/c 3091..412", "type": "account", "community": 5, "priority": 0.73, "role_label": "Origin Layer (Mule Account)", "aliases": ["S.Baghel Mule"], "phone": ""},
+    {"id": "ACC-02", "label": "PNB A/c 1840..901", "type": "account", "community": 5, "priority": 0.80, "role_label": "Pass-through Rapid Relay", "aliases": ["Kurre Layer 1"], "phone": ""},
+    {"id": "ACC-03", "label": "HDFC A/c 5010..338", "type": "account", "community": 5, "priority": 0.82, "role_label": "Consolidation Hub", "aliases": ["V.Sonkar Current"], "phone": ""},
+    {"id": "ACC-04", "label": "Axis A/c 9190..112", "type": "account", "community": 5, "priority": 0.85, "role_label": "Offshore / Destination Draw", "aliases": ["Nagpur Bullion"], "phone": ""},
+
+    {"id": "VEH-01", "label": "Bolero CG-07-BW-4912", "type": "vehicle", "community": 1, "priority": 0.77, "role_label": "Movement Vehicle (Durg-Kumhari)", "aliases": ["White Bolero"], "phone": ""},
+    {"id": "VEH-02", "label": "Ertiga MH-31-FA-8819", "type": "vehicle", "community": 2, "priority": 0.75, "role_label": "Interstate Transit Vehicle", "aliases": ["Grey Ertiga"], "phone": ""},
+    {"id": "VEH-03", "label": "Auto CG-07-T-1402", "type": "vehicle", "community": 1, "priority": 0.50, "role_label": "Local Feeder Auto", "aliases": [], "phone": ""},
+
+    {"id": "LOC-BHILAI-BUS", "label": "Bhilai Civic Center Bus Stand", "type": "location", "community": 1, "priority": 0.65, "role_label": "Abduction / Contact Point", "aliases": ["Civic Center"], "phone": ""},
+    {"id": "LOC-DURG-JN", "label": "Durg Junction Railway Stn", "type": "location", "community": 1, "priority": 0.55, "role_label": "Surveillance Cross-check", "aliases": [], "phone": ""},
+    {"id": "LOC-KUMHARI-TOLL", "label": "Kumhari Toll Plaza NH-53", "type": "location", "community": 3, "priority": 0.86, "role_label": "Chokepoint / ANPR Match", "aliases": ["NH-53 Toll"], "phone": ""},
+    {"id": "LOC-NAGPUR-ST", "label": "Ganeshpeth Bus Depot Nagpur", "type": "location", "community": 2, "priority": 0.60, "role_label": "Disembarkation Point", "aliases": [], "phone": ""},
+
+    {"id": "P-C-01", "label": "Tarun Patel", "type": "person", "community": 1, "priority": 0.38, "role_label": "Sim Card Vendor", "aliases": [], "phone": "+91 98264 55901"},
+    {"id": "P-C-02", "label": "Gopal Sahu", "type": "person", "community": 1, "priority": 0.28, "role_label": "Tea Stall Vendor", "aliases": [], "phone": "+91 97544 33100"},
+    {"id": "P-C-03", "label": "Kishore Chandrakar", "type": "person", "community": 2, "priority": 0.35, "role_label": "Workshop Mechanic", "aliases": [], "phone": "+91 98901 22891"},
+    {"id": "P-C-04", "label": "Laxman Rao", "type": "person", "community": 2, "priority": 0.33, "role_label": "Toll Lane Attendant", "aliases": [], "phone": "+91 93240 11293"},
+    {"id": "P-C-05", "label": "Manish Dewangan", "type": "person", "community": 1, "priority": 0.30, "role_label": "Cyber Cafe Operator", "aliases": [], "phone": "+91 99071 88344"}
+  ],
+  "edges": [
+    {"id": "E-001", "source": "P-BROKER-01", "target": "P-ALIAS-01", "type": "mention", "score": 0.95, "edge_kind": "inferred", "first_ts": "2026-09-02T10:00:00Z", "last_ts": "2026-09-24T18:00:00Z"},
+    {"id": "E-002", "source": "P-BROKER-01", "target": "P-ALIAS-02", "type": "mention", "score": 0.92, "edge_kind": "inferred", "first_ts": "2026-09-03T11:00:00Z", "last_ts": "2026-09-25T14:00:00Z"},
+    {"id": "E-003", "source": "P-BROKER-01", "target": "P-ALIAS-03", "type": "mention", "score": 0.89, "edge_kind": "inferred", "first_ts": "2026-09-05T09:00:00Z", "last_ts": "2026-09-26T17:00:00Z"},
+
+    {"id": "E-010", "source": "P-BROKER-01", "target": "P-A-01", "type": "call", "score": 0.91, "edge_kind": "observed", "first_ts": "2026-09-04T08:14:00Z", "last_ts": "2026-09-27T22:40:00Z"},
+    {"id": "E-011", "source": "P-BROKER-01", "target": "P-A-02", "type": "call", "score": 0.84, "edge_kind": "observed", "first_ts": "2026-09-06T12:30:00Z", "last_ts": "2026-09-26T21:10:00Z"},
+    {"id": "E-012", "source": "P-BROKER-01", "target": "P-B-01", "type": "call", "score": 0.96, "edge_kind": "observed", "first_ts": "2026-09-02T14:00:00Z", "last_ts": "2026-09-28T19:45:00Z"},
+    {"id": "E-013", "source": "P-BROKER-01", "target": "P-B-03", "type": "call", "score": 0.83, "edge_kind": "observed", "first_ts": "2026-09-10T16:20:00Z", "last_ts": "2026-09-27T02:15:00Z"},
+    {"id": "E-014", "source": "P-BROKER-01", "target": "PH-BURNER-01", "type": "owns", "score": 0.88, "edge_kind": "inferred", "first_ts": "2026-09-05T00:00:00Z", "last_ts": "2026-09-28T04:00:00Z"},
+    {"id": "E-015", "source": "P-BROKER-01", "target": "ACC-03", "type": "owns", "score": 0.94, "edge_kind": "observed", "first_ts": "2026-09-01T00:00:00Z", "last_ts": "2026-09-28T12:00:00Z"},
+    {"id": "E-016", "source": "P-BROKER-01", "target": "LOC-KUMHARI-TOLL", "type": "co_travel", "score": 0.87, "edge_kind": "observed", "first_ts": "2026-09-22T01:14:00Z", "last_ts": "2026-09-27T03:41:00Z"},
+
+    {"id": "E-020", "source": "P-A-01", "target": "P-A-02", "type": "call", "score": 0.85, "edge_kind": "observed", "first_ts": "2026-09-03T09:12:00Z", "last_ts": "2026-09-27T18:00:00Z"},
+    {"id": "E-021", "source": "P-A-01", "target": "P-A-03", "type": "call", "score": 0.78, "edge_kind": "observed", "first_ts": "2026-09-04T10:00:00Z", "last_ts": "2026-09-26T19:30:00Z"},
+    {"id": "E-022", "source": "P-A-01", "target": "P-A-05", "type": "call", "score": 0.74, "edge_kind": "observed", "first_ts": "2026-09-07T11:45:00Z", "last_ts": "2026-09-25T14:20:00Z"},
+    {"id": "E-023", "source": "P-A-01", "target": "ORG-RECRUIT-01", "type": "owns", "score": 0.82, "edge_kind": "extracted", "first_ts": "2026-09-01T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+    {"id": "E-024", "source": "P-A-01", "target": "PH-A-01", "type": "owns", "score": 0.99, "edge_kind": "observed", "first_ts": "2026-09-01T00:00:00Z", "last_ts": "2026-09-30T00:00:00Z"},
+    {"id": "E-025", "source": "P-A-02", "target": "P-A-04", "type": "call", "score": 0.68, "edge_kind": "observed", "first_ts": "2026-09-05T08:00:00Z", "last_ts": "2026-09-24T17:15:00Z"},
+    {"id": "E-026", "source": "P-A-02", "target": "LOC-BHILAI-BUS", "type": "stay", "score": 0.79, "edge_kind": "observed", "first_ts": "2026-09-12T14:00:00Z", "last_ts": "2026-09-26T18:00:00Z"},
+    {"id": "E-027", "source": "P-A-03", "target": "VEH-01", "type": "owns", "score": 0.88, "edge_kind": "observed", "first_ts": "2026-09-01T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+    {"id": "E-028", "source": "P-A-03", "target": "VEH-03", "type": "owns", "score": 0.72, "edge_kind": "observed", "first_ts": "2026-09-02T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+    {"id": "E-029", "source": "P-A-05", "target": "ACC-01", "type": "owns", "score": 0.81, "edge_kind": "observed", "first_ts": "2026-09-03T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+
+    {"id": "E-030", "source": "P-SHOP-01", "target": "P-A-01", "type": "call", "score": 0.22, "edge_kind": "observed", "first_ts": "2026-09-04T12:00:00Z", "last_ts": "2026-09-26T11:00:00Z"},
+    {"id": "E-031", "source": "P-SHOP-01", "target": "P-A-02", "type": "call", "score": 0.20, "edge_kind": "observed", "first_ts": "2026-09-05T13:10:00Z", "last_ts": "2026-09-25T17:20:00Z"},
+    {"id": "E-032", "source": "P-SHOP-01", "target": "P-A-03", "type": "call", "score": 0.18, "edge_kind": "observed", "first_ts": "2026-09-06T14:00:00Z", "last_ts": "2026-09-24T19:00:00Z"},
+    {"id": "E-033", "source": "P-SHOP-01", "target": "P-A-04", "type": "call", "score": 0.15, "edge_kind": "observed", "first_ts": "2026-09-07T10:00:00Z", "last_ts": "2026-09-22T16:00:00Z"},
+    {"id": "E-034", "source": "P-SHOP-01", "target": "P-A-05", "type": "call", "score": 0.19, "edge_kind": "observed", "first_ts": "2026-09-08T09:30:00Z", "last_ts": "2026-09-23T20:10:00Z"},
+    {"id": "E-035", "source": "P-SHOP-01", "target": "P-C-01", "type": "call", "score": 0.14, "edge_kind": "observed", "first_ts": "2026-09-09T11:00:00Z", "last_ts": "2026-09-20T12:00:00Z"},
+    {"id": "E-036", "source": "P-SHOP-01", "target": "P-C-02", "type": "call", "score": 0.12, "edge_kind": "observed", "first_ts": "2026-09-10T15:00:00Z", "last_ts": "2026-09-21T18:00:00Z"},
+    {"id": "E-037", "source": "P-SHOP-01", "target": "P-C-05", "type": "call", "score": 0.13, "edge_kind": "observed", "first_ts": "2026-09-11T16:00:00Z", "last_ts": "2026-09-22T19:00:00Z"},
+    {"id": "E-038", "source": "P-SHOP-01", "target": "MP-01", "type": "call", "score": 0.10, "edge_kind": "observed", "first_ts": "2026-09-14T11:00:00Z", "last_ts": "2026-09-14T11:02:00Z"},
+
+    {"id": "E-040", "source": "P-B-01", "target": "P-B-02", "type": "call", "score": 0.88, "edge_kind": "observed", "first_ts": "2026-09-02T16:00:00Z", "last_ts": "2026-09-28T21:00:00Z"},
+    {"id": "E-041", "source": "P-B-01", "target": "P-B-03", "type": "call", "score": 0.86, "edge_kind": "observed", "first_ts": "2026-09-04T18:30:00Z", "last_ts": "2026-09-27T01:00:00Z"},
+    {"id": "E-042", "source": "P-B-01", "target": "P-B-04", "type": "call", "score": 0.79, "edge_kind": "observed", "first_ts": "2026-09-08T14:15:00Z", "last_ts": "2026-09-26T16:45:00Z"},
+    {"id": "E-043", "source": "P-B-01", "target": "P-B-05", "type": "call", "score": 0.72, "edge_kind": "observed", "first_ts": "2026-09-10T19:00:00Z", "last_ts": "2026-09-25T20:30:00Z"},
+    {"id": "E-044", "source": "P-B-01", "target": "PH-B-01", "type": "owns", "score": 0.99, "edge_kind": "observed", "first_ts": "2026-09-01T00:00:00Z", "last_ts": "2026-09-30T00:00:00Z"},
+    {"id": "E-045", "source": "P-B-02", "target": "ORG-HOTEL-01", "type": "owns", "score": 0.84, "edge_kind": "extracted", "first_ts": "2026-09-01T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+    {"id": "E-046", "source": "P-B-03", "target": "VEH-02", "type": "owns", "score": 0.87, "edge_kind": "observed", "first_ts": "2026-09-02T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+    {"id": "E-047", "source": "P-B-03", "target": "LOC-NAGPUR-ST", "type": "stay", "score": 0.76, "edge_kind": "observed", "first_ts": "2026-09-18T05:00:00Z", "last_ts": "2026-09-27T06:00:00Z"},
+    {"id": "E-048", "source": "P-B-04", "target": "P-C-03", "type": "call", "score": 0.45, "edge_kind": "observed", "first_ts": "2026-09-12T10:00:00Z", "last_ts": "2026-09-20T11:00:00Z"},
+    {"id": "E-049", "source": "P-B-05", "target": "P-C-04", "type": "call", "score": 0.40, "edge_kind": "observed", "first_ts": "2026-09-15T09:00:00Z", "last_ts": "2026-09-22T10:00:00Z"},
+
+    {"id": "E-050", "source": "ACC-01", "target": "ACC-02", "type": "transfer", "score": 0.94, "edge_kind": "observed", "first_ts": "2026-09-15T09:12:00Z", "last_ts": "2026-09-26T14:10:00Z"},
+    {"id": "E-051", "source": "ACC-02", "target": "ACC-03", "type": "transfer", "score": 0.96, "edge_kind": "observed", "first_ts": "2026-09-15T09:18:00Z", "last_ts": "2026-09-26T14:15:00Z"},
+    {"id": "E-052", "source": "ACC-03", "target": "ACC-04", "type": "transfer", "score": 0.93, "edge_kind": "observed", "first_ts": "2026-09-15T09:25:00Z", "last_ts": "2026-09-26T14:30:00Z"},
+    {"id": "E-053", "source": "ACC-04", "target": "P-B-01", "type": "transfer", "score": 0.89, "edge_kind": "inferred", "first_ts": "2026-09-15T11:00:00Z", "last_ts": "2026-09-26T16:00:00Z"},
+
+    {"id": "E-060", "source": "MP-01", "target": "AD-BAIT-01", "type": "ad_response", "score": 0.88, "edge_kind": "observed", "first_ts": "2026-09-12T11:20:00Z", "last_ts": "2026-09-14T10:15:00Z"},
+    {"id": "E-061", "source": "MP-02", "target": "AD-BAIT-01", "type": "ad_response", "score": 0.85, "edge_kind": "observed", "first_ts": "2026-09-15T14:00:00Z", "last_ts": "2026-09-16T12:00:00Z"},
+    {"id": "E-062", "source": "MP-03", "target": "AD-BAIT-02", "type": "ad_response", "score": 0.82, "edge_kind": "observed", "first_ts": "2026-09-18T16:30:00Z", "last_ts": "2026-09-19T09:00:00Z"},
+    {"id": "E-063", "source": "MP-04", "target": "AD-BAIT-01", "type": "ad_response", "score": 0.89, "edge_kind": "observed", "first_ts": "2026-09-20T10:10:00Z", "last_ts": "2026-09-21T11:30:00Z"},
+    {"id": "E-064", "source": "MP-05", "target": "AD-BAIT-01", "type": "ad_response", "score": 0.89, "edge_kind": "observed", "first_ts": "2026-09-20T10:12:00Z", "last_ts": "2026-09-21T11:35:00Z"},
+
+    {"id": "E-070", "source": "AD-BAIT-01", "target": "PH-BAIT-01", "type": "mention", "score": 0.99, "edge_kind": "extracted", "first_ts": "2026-09-01T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+    {"id": "E-071", "source": "AD-BAIT-02", "target": "PH-BAIT-01", "type": "mention", "score": 0.98, "edge_kind": "extracted", "first_ts": "2026-09-01T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+    {"id": "E-072", "source": "PH-BAIT-01", "target": "P-A-02", "type": "owns", "score": 0.91, "edge_kind": "inferred", "first_ts": "2026-09-03T00:00:00Z", "last_ts": "2026-09-28T00:00:00Z"},
+
+    {"id": "E-080", "source": "PH-BURNER-01", "target": "LOC-BHILAI-BUS", "type": "stay", "score": 0.95, "edge_kind": "observed", "first_ts": "2026-09-22T17:00:00Z", "last_ts": "2026-09-26T22:30:00Z"},
+    {"id": "E-081", "source": "PH-BURNER-01", "target": "LOC-KUMHARI-TOLL", "type": "co_travel", "score": 0.92, "edge_kind": "observed", "first_ts": "2026-09-26T23:55:00Z", "last_ts": "2026-09-27T01:10:00Z"},
+    {"id": "E-082", "source": "PH-BURNER-01", "target": "MP-01", "type": "stay", "score": 0.88, "edge_kind": "inferred", "first_ts": "2026-09-14T17:30:00Z", "last_ts": "2026-09-14T19:00:00Z"},
+    {"id": "E-083", "source": "PH-BURNER-01", "target": "MP-02", "type": "stay", "score": 0.86, "edge_kind": "inferred", "first_ts": "2026-09-16T18:00:00Z", "last_ts": "2026-09-16T19:30:00Z"},
+    {"id": "E-084", "source": "PH-BURNER-01", "target": "MP-04", "type": "stay", "score": 0.91, "edge_kind": "inferred", "first_ts": "2026-09-21T17:00:00Z", "last_ts": "2026-09-21T18:45:00Z"},
+    {"id": "E-085", "source": "PH-BURNER-01", "target": "MP-05", "type": "stay", "score": 0.91, "edge_kind": "inferred", "first_ts": "2026-09-21T17:00:00Z", "last_ts": "2026-09-21T18:45:00Z"},
+
+    {"id": "E-090", "source": "VEH-01", "target": "LOC-KUMHARI-TOLL", "type": "co_travel", "score": 0.94, "edge_kind": "observed", "first_ts": "2026-09-22T01:14:00Z", "last_ts": "2026-09-27T01:12:00Z"},
+    {"id": "E-091", "source": "VEH-02", "target": "LOC-KUMHARI-TOLL", "type": "co_travel", "score": 0.93, "edge_kind": "observed", "first_ts": "2026-09-22T01:18:00Z", "last_ts": "2026-09-27T01:16:00Z"},
+    {"id": "E-092", "source": "VEH-01", "target": "VEH-02", "type": "co_travel", "score": 0.89, "edge_kind": "inferred", "first_ts": "2026-09-22T01:14:00Z", "last_ts": "2026-09-27T01:16:00Z"},
+    {"id": "E-093", "source": "VEH-01", "target": "LOC-BHILAI-BUS", "type": "stay", "score": 0.81, "edge_kind": "observed", "first_ts": "2026-09-21T16:30:00Z", "last_ts": "2026-09-21T19:00:00Z"},
+    {"id": "E-094", "source": "VEH-02", "target": "ORG-HOTEL-01", "type": "stay", "score": 0.85, "edge_kind": "observed", "first_ts": "2026-09-22T06:00:00Z", "last_ts": "2026-09-27T07:30:00Z"},
+
+    {"id": "E-100", "source": "P-A-03", "target": "LOC-BHILAI-BUS", "type": "stay", "score": 0.77, "edge_kind": "observed", "first_ts": "2026-09-21T17:15:00Z", "last_ts": "2026-09-21T18:40:00Z"},
+    {"id": "E-101", "source": "P-A-04", "target": "LOC-BHILAI-BUS", "type": "stay", "score": 0.73, "edge_kind": "observed", "first_ts": "2026-09-21T16:50:00Z", "last_ts": "2026-09-21T18:10:00Z"},
+    {"id": "E-102", "source": "P-A-02", "target": "ORG-RECRUIT-01", "type": "stay", "score": 0.82, "edge_kind": "observed", "first_ts": "2026-09-02T10:00:00Z", "last_ts": "2026-09-25T17:00:00Z"},
+    {"id": "E-103", "source": "ORG-RECRUIT-01", "target": "ORG-NGO-01", "type": "mention", "score": 0.65, "edge_kind": "extracted", "first_ts": "2026-09-05T00:00:00Z", "last_ts": "2026-09-20T00:00:00Z"},
+    {"id": "E-104", "source": "P-A-05", "target": "LOC-DURG-JN", "type": "stay", "score": 0.61, "edge_kind": "observed", "first_ts": "2026-09-15T08:30:00Z", "last_ts": "2026-09-26T13:40:00Z"},
+    {"id": "E-105", "source": "P-B-02", "target": "LOC-NAGPUR-ST", "type": "stay", "score": 0.70, "edge_kind": "observed", "first_ts": "2026-09-16T04:00:00Z", "last_ts": "2026-09-27T08:00:00Z"},
+
+    {"id": "E-110", "source": "P-C-01", "target": "PH-BURNER-01", "type": "mention", "score": 0.72, "edge_kind": "extracted", "first_ts": "2026-09-05T11:00:00Z", "last_ts": "2026-09-05T11:30:00Z"},
+    {"id": "E-111", "source": "P-C-05", "target": "AD-BAIT-02", "type": "mention", "score": 0.68, "edge_kind": "extracted", "first_ts": "2026-09-17T14:00:00Z", "last_ts": "2026-09-17T15:00:00Z"},
+    {"id": "E-112", "source": "P-C-04", "target": "LOC-KUMHARI-TOLL", "type": "stay", "score": 0.55, "edge_kind": "observed", "first_ts": "2026-09-22T00:00:00Z", "last_ts": "2026-09-27T08:00:00Z"},
+    {"id": "E-113", "source": "P-C-02", "target": "LOC-BHILAI-BUS", "type": "stay", "score": 0.49, "edge_kind": "observed", "first_ts": "2026-09-01T06:00:00Z", "last_ts": "2026-09-30T22:00:00Z"}
+  ]
+}

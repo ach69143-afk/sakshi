@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ALT-01",
+    "type": "bridge_node",
+    "severity": "high",
+    "title": "Inter-cluster Broker Bridging Disjoint Communities",
+    "explanation": "Entity P-BROKER-01 exhibits top 1% betweenness centrality, acting as the sole communication and financial conduit between Durg logistics cluster and Nagpur receivers with no direct peer linkages.",
+    "entity_ids": ["P-BROKER-01", "P-A-01", "P-B-01"],
+    "evidence_ids": ["CDR-0012", "TXN-0044", "FIR-07-S3"],
+    "ts": "2026-09-28T02:15:00Z"
+  },
+  {
+    "id": "ALT-02",
+    "type": "golden_hour",
+    "severity": "high",
+    "title": "Burner Device Proximity Pattern in Golden Hour Window",
+    "explanation": "IMSI-404-71 was triangulated within 200m of last-known coordinates of 4 out of 5 missing individuals within 90 minutes of their disappearance, then powered down post toll transit.",
+    "entity_ids": ["PH-BURNER-01", "MP-01", "MP-02", "MP-04", "MP-05", "LOC-BHILAI-BUS"],
+    "evidence_ids": ["CDR-0081", "GEO-0044", "TOLL-0019"],
+    "ts": "2026-09-27T04:30:00Z"
+  },
+  {
+    "id": "ALT-03",
+    "type": "pass_through",
+    "severity": "high",
+    "title": "Rapid Relay Banking Chain (< 6 min Velocity)",
+    "explanation": "Structured credits from SBI mule account passed through PNB and HDFC within 6-15 minutes, with terminal withdrawal in Nagpur matching illicit transit compensation timing.",
+    "entity_ids": ["ACC-01", "ACC-02", "ACC-03", "ACC-04"],
+    "evidence_ids": ["TXN-0050", "TXN-0051", "TXN-0052"],
+    "ts": "2026-09-26T15:00:00Z"
+  },
+  {
+    "id": "ALT-04",
+    "type": "digital_bait",
+    "severity": "med",
+    "title": "Targeted Lure Ad Linked to Inbound Call Influx",
+    "explanation": "Job opportunity flyer AD-BAIT-01 and online posting AD-BAIT-02 directed inquiries to helpline 97520 88319, which registered inbound contacts from 5 missing persons shortly prior to vanishing.",
+    "entity_ids": ["AD-BAIT-01", "AD-BAIT-02", "PH-BAIT-01", "MP-01"],
+    "evidence_ids": ["CDR-0055", "FIR-01-DURG"],
+    "ts": "2026-09-25T18:20:00Z"
+  },
+  {
+    "id": "ALT-05",
+    "type": "toll_anomaly",
+    "severity": "med",
+    "title": "Synchronous Tandem Passage at Kumhari Toll NH-53",
+    "explanation": "Bolero CG-07-BW-4912 and Ertiga MH-31-FA-8819 cleared Kumhari Toll lane within 4 minutes of each other at 01:14 hrs, closely matching burner tower handover.",
+    "entity_ids": ["VEH-01", "VEH-02", "LOC-KUMHARI-TOLL"],
+    "evidence_ids": ["TOLL-0019", "ANPR-0091"],
+    "ts": "2026-09-27T01:30:00Z"
+  },
+  {
+    "id": "ALT-06",
+    "type": "co_traveler",
+    "severity": "low",
+    "title": "Repeated Cellular Co-location Along Transit Corridor",
+    "explanation": "Mahesh Kurre (P-A-01) and Sunil Baghel (P-A-03) show 8 co-travel instances along Bhilai-Kumhari corridor between 16:00 and 20:00 hrs on incident dates.",
+    "entity_ids": ["P-A-01", "P-A-03", "LOC-BHILAI-BUS"],
+    "evidence_ids": ["GEO-0089", "CDR-0104"],
+    "ts": "2026-09-24T21:00:00Z"
+  },
+  {
+    "id": "ALT-07",
+    "type": "bridge_node",
+    "severity": "low",
+    "title": "High Degree Incidental Decoy Node Filtered",
+    "explanation": "Shopkeeper Ramesh Gupta (P-SHOP-01) displays high degree connectivity (12 callers) but negligible betweenness centrality and flat temporal distribution, verified as retail recharge patron traffic.",
+    "entity_ids": ["P-SHOP-01"],
+    "evidence_ids": ["CDR-0401", "GEO-0120"],
+    "ts": "2026-09-26T12:30:00Z"
+  }
+]

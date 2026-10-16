@@ -1,0 +1,148 @@
+{
+  "head_hash": "e8a93bc214f7d6a5c108e4f1a23b567d890123456789abcdef0123456789ab01",
+  "status": "intact",
+  "is_tampered": false,
+  "broken_at": null,
+  "entries": [
+    {
+      "idx": 1,
+      "ts": "2026-09-01T08:00:00Z",
+      "action": "CASE_INITIALIZATION (SP-014 Durg Missing Cluster registered)",
+      "hash": "7a8b1c2d3e4f5061728394a5b6c7d8e9f0123456789abcdef0123456789abc01",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "idx": 2,
+      "ts": "2026-09-02T09:15:00Z",
+      "action": "INGEST_EVIDENCE (FIR-01-DURG Missing Person Complaint recorded)",
+      "hash": "1f2e3d4c5b6a708192a3b4c5d6e7f8091a2b3c4d5e6f708192a3b4c5d6e7f802",
+      "prev_hash": "7a8b1c2d3e4f5061728394a5b6c7d8e9f0123456789abcdef0123456789abc01"
+    },
+    {
+      "idx": 3,
+      "ts": "2026-09-04T11:30:00Z",
+      "action": "INGEST_CDR (Airtel tower dump: Bhilai Civic Center Sector 6)",
+      "hash": "9c8b7a6d5e4f3210fe8dcba9876543210fedcba9876543210fedcba987654303",
+      "prev_hash": "1f2e3d4c5b6a708192a3b4c5d6e7f8091a2b3c4d5e6f708192a3b4c5d6e7f802"
+    },
+    {
+      "idx": 4,
+      "ts": "2026-09-07T14:20:00Z",
+      "action": "ENTITY_EXTRACTION (Discovered 14 cellular identifiers and 2 vehicle tags)",
+      "hash": "4a5b6c7d8e9f00112233445566778899aabbccddeeff00112233445566778804",
+      "prev_hash": "9c8b7a6d5e4f3210fe8dcba9876543210fedcba9876543210fedcba987654303"
+    },
+    {
+      "idx": 5,
+      "ts": "2026-09-10T16:00:00Z",
+      "action": "GRAPH_EXPANSION (Added Cluster A local transport feeder nodes)",
+      "hash": "bcdef0123456789abcdef0123456789abcdef0123456789abcdef01234567805",
+      "prev_hash": "4a5b6c7d8e9f00112233445566778899aabbccddeeff00112233445566778804"
+    },
+    {
+      "idx": 6,
+      "ts": "2026-09-12T10:45:00Z",
+      "action": "ALERT_TRIGGER (Digital bait helpline pattern flagged across 3 FIRs)",
+      "hash": "cdef0123456789abcdef0123456789abcdef0123456789abcdef012345678906",
+      "prev_hash": "bcdef0123456789abcdef0123456789abcdef0123456789abcdef01234567805"
+    },
+    {
+      "idx": 7,
+      "ts": "2026-09-14T19:00:00Z",
+      "action": "GOLDEN_HOUR_ACTIVATION (MP-01 Anjali Sahu search perimeter initiated)",
+      "hash": "def0123456789abcdef0123456789abcdef0123456789abcdef0123456789a07",
+      "prev_hash": "cdef0123456789abcdef0123456789abcdef0123456789abcdef012345678906"
+    },
+    {
+      "idx": 8,
+      "ts": "2026-09-16T12:00:00Z",
+      "action": "INGEST_BANK_STATEMENT (SBI mule account pass-through transactions)",
+      "hash": "ef0123456789abcdef0123456789abcdef0123456789abcdef0123456789ab08",
+      "prev_hash": "def0123456789abcdef0123456789abcdef0123456789abcdef0123456789a07"
+    },
+    {
+      "idx": 9,
+      "ts": "2026-09-18T18:30:00Z",
+      "action": "COMMUNITY_DETECTION (Louvain partition resolved Cluster A & Cluster B)",
+      "hash": "f0123456789abcdef0123456789abcdef0123456789abcdef0123456789abc09",
+      "prev_hash": "ef0123456789abcdef0123456789abcdef0123456789abcdef0123456789ab08"
+    },
+    {
+      "idx": 10,
+      "ts": "2026-09-20T11:15:00Z",
+      "action": "EVIDENCE_ATTACH (FIR-07-S3 Witness statement linking 'Golden' alias)",
+      "hash": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcd10",
+      "prev_hash": "f0123456789abcdef0123456789abcdef0123456789abcdef0123456789abc09"
+    },
+    {
+      "idx": 11,
+      "ts": "2026-09-21T21:00:00Z",
+      "action": "ANPR_INGESTION (Kumhari Toll NH-53 FASTag logs for Bolero CG-07)",
+      "hash": "123456789abcdef0123456789abcdef0123456789abcdef0123456789abcde11",
+      "prev_hash": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcd10"
+    },
+    {
+      "idx": 12,
+      "ts": "2026-09-22T08:00:00Z",
+      "action": "TOLL_ANOMALY_FLAG (Synchronous passage Bolero & Ertiga flagged)",
+      "hash": "23456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef12",
+      "prev_hash": "123456789abcdef0123456789abcdef0123456789abcdef0123456789abcde11"
+    },
+    {
+      "idx": 13,
+      "ts": "2026-09-23T14:30:00Z",
+      "action": "BURNING_IMSI_DETECT (Burner 98930 11902 correlated with victim timeline)",
+      "hash": "3456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef013",
+      "prev_hash": "23456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef12"
+    },
+    {
+      "idx": 14,
+      "ts": "2026-09-24T17:00:00Z",
+      "action": "MERGE_CANDIDATE_QUEUED (MQ-001 Vikas S. / V.K. Sonkar entity resolution)",
+      "hash": "456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef014",
+      "prev_hash": "3456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef013"
+    },
+    {
+      "idx": 15,
+      "ts": "2026-09-25T19:40:00Z",
+      "action": "INVESTIGATOR_NOTE (Added field intelligence memo regarding Nagpur transit lodge)",
+      "hash": "56789abcdef0123456789abcdef0123456789abcdef0123456789abcdef01215",
+      "prev_hash": "456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef014"
+    },
+    {
+      "idx": 16,
+      "ts": "2026-09-26T22:10:00Z",
+      "action": "CENTRALITY_REEVALUATION (P-BROKER-01 marked top bridge articulation node)",
+      "hash": "6789abcdef0123456789abcdef0123456789abcdef0123456789abcdef012316",
+      "prev_hash": "56789abcdef0123456789abcdef0123456789abcdef0123456789abcdef01215"
+    },
+    {
+      "idx": 17,
+      "ts": "2026-09-27T03:15:00Z",
+      "action": "AUDIT_CHECKPOINT (Cryptographic snapshot confirmed by Cyber Cell SP-014)",
+      "hash": "789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123417",
+      "prev_hash": "6789abcdef0123456789abcdef0123456789abcdef0123456789abcdef012316"
+    },
+    {
+      "idx": 18,
+      "ts": "2026-09-27T08:00:00Z",
+      "action": "RAPID_RELAY_CONFIRMATION (Pass-through account alerts compiled for prosecution)",
+      "hash": "89abcdef0123456789abcdef0123456789abcdef0123456789abcdef01234518",
+      "prev_hash": "789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123417"
+    },
+    {
+      "idx": 19,
+      "ts": "2026-09-28T04:30:00Z",
+      "action": "GOLDEN_HOUR_SUMMARY (Generated 5-victim spatial correlation dossier)",
+      "hash": "9abcdef0123456789abcdef0123456789abcdef0123456789abcdef012345619",
+      "prev_hash": "89abcdef0123456789abcdef0123456789abcdef0123456789abcdef01234518"
+    },
+    {
+      "idx": 20,
+      "ts": "2026-09-28T12:00:00Z",
+      "action": "STATE_HEAD_SYNC (Ledger head published to state cyber forensics vault)",
+      "hash": "e8a93bc214f7d6a5c108e4f1a23b567d890123456789abcdef0123456789ab01",
+      "prev_hash": "9abcdef0123456789abcdef0123456789abcdef0123456789abcdef012345619"
+    }
+  ]
+}

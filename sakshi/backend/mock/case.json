@@ -1,0 +1,9 @@
+{
+  "case_id": "SP-014",
+  "title": "Durg Missing Cluster",
+  "status": "Open",
+  "persons": 62,
+  "calls": 412,
+  "txns": 148,
+  "alerts": 7
+}

@@ -1,0 +1,126 @@
+{
+  "P-BROKER-01": {
+    "id": "P-BROKER-01",
+    "label": "Vikas S. ('Golden')",
+    "type": "person",
+    "aliases": ["Golden Bhai", "V. K. Sonkar", "Vikram S."],
+    "priority": 0.94,
+    "priority_breakdown": {
+      "betweenness": 0.98,
+      "pagerank": 0.89,
+      "cross_community": 0.96,
+      "evidence_diversity": 0.92
+    },
+    "role_label": "Inter-cluster Broker",
+    "connections": [
+      {"id": "P-A-01", "label": "Mahesh Kurre", "score": 0.91},
+      {"id": "P-B-01", "label": "Aslam Sheikh ('Bade')", "score": 0.96},
+      {"id": "PH-BURNER-01", "label": "Burner IMSI-404-71", "score": 0.88},
+      {"id": "ACC-03", "label": "HDFC A/c 5010..338", "score": 0.94},
+      {"id": "LOC-KUMHARI-TOLL", "label": "Kumhari Toll Plaza NH-53", "score": 0.87}
+    ],
+    "evidence": [
+      {"evidence_id": "CDR-0012", "kind": "observed", "summary": "Direct encrypted VOIP and cellular calls bridging Cluster A (Durg) and Cluster B (Nagpur).", "ts": "2026-09-27T22:40:00Z"},
+      {"evidence_id": "TXN-0044", "kind": "observed", "summary": "Rapid relay routing through HDFC A/c 5010..338 within 6 minutes of Kumhari transit.", "ts": "2026-09-26T14:15:00Z"},
+      {"evidence_id": "FIR-07-S3", "kind": "extracted", "summary": "Witness deposition names 'Golden' coordinating vehicle switch point near Kumhari bypass.", "ts": "2026-09-25T11:00:00Z"},
+      {"evidence_id": "GEO-0089", "kind": "inferred", "summary": "Concurrent tower handover on NH-53 with Bolero CG-07-BW-4912.", "ts": "2026-09-27T01:14:00Z"}
+    ]
+  },
+  "P-SHOP-01": {
+    "id": "P-SHOP-01",
+    "label": "Ramesh Gupta (Paan/Kirana)",
+    "type": "person",
+    "aliases": ["Gupta Kirana Sec-6"],
+    "priority": 0.12,
+    "priority_breakdown": {
+      "betweenness": 0.04,
+      "pagerank": 0.18,
+      "cross_community": 0.02,
+      "evidence_diversity": 0.21
+    },
+    "role_label": "Decoy / Incidental Contact",
+    "connections": [
+      {"id": "P-A-01", "label": "Mahesh Kurre", "score": 0.22},
+      {"id": "P-A-02", "label": "Dinesh Tandi", "score": 0.20},
+      {"id": "P-A-03", "label": "Sunil 'Auto' Baghel", "score": 0.18},
+      {"id": "P-C-01", "label": "Tarun Patel", "score": 0.14},
+      {"id": "MP-01", "label": "Anjali Sahu (17F)", "score": 0.10}
+    ],
+    "evidence": [
+      {"evidence_id": "CDR-0401", "kind": "observed", "summary": "Routine short duration inbound/outbound calls consistent with retail recharge purchases.", "ts": "2026-09-26T11:00:00Z"},
+      {"evidence_id": "GEO-0120", "kind": "observed", "summary": "Tower presence static at Bhilai Sector 6 commercial market; no transit anomalies.", "ts": "2026-09-26T12:00:00Z"}
+    ]
+  },
+  "PH-BURNER-01": {
+    "id": "PH-BURNER-01",
+    "label": "Burner IMSI-404-71",
+    "type": "phone",
+    "aliases": ["Ephemeral 9893"],
+    "priority": 0.91,
+    "priority_breakdown": {
+      "betweenness": 0.88,
+      "pagerank": 0.82,
+      "cross_community": 0.94,
+      "evidence_diversity": 0.95
+    },
+    "role_label": "Proximity Burner Phone",
+    "connections": [
+      {"id": "P-BROKER-01", "label": "Vikas S. ('Golden')", "score": 0.88},
+      {"id": "LOC-BHILAI-BUS", "label": "Bhilai Civic Center Bus Stand", "score": 0.95},
+      {"id": "LOC-KUMHARI-TOLL", "label": "Kumhari Toll Plaza NH-53", "score": 0.92},
+      {"id": "MP-01", "label": "Anjali Sahu (17F)", "score": 0.88},
+      {"id": "MP-04", "label": "Sunita Markam (18F)", "score": 0.91}
+    ],
+    "evidence": [
+      {"evidence_id": "CDR-0081", "kind": "observed", "summary": "Activated 2 hours prior to 4 distinct disappearance windows; zero personal traffic.", "ts": "2026-09-26T22:30:00Z"},
+      {"evidence_id": "GEO-0044", "kind": "observed", "summary": "Cell tower triangulation within 180m of Bhilai Civic Center bus stop during victim sightings.", "ts": "2026-09-21T17:40:00Z"},
+      {"evidence_id": "TOLL-0019", "kind": "observed", "summary": "Traversed Kumhari Toll NH-53 at 01:10 hrs on 2026-09-27, deactivated 14 minutes later.", "ts": "2026-09-27T01:24:00Z"}
+    ]
+  },
+  "P-A-01": {
+    "id": "P-A-01",
+    "label": "Mahesh Kurre",
+    "type": "person",
+    "aliases": ["Makhan"],
+    "priority": 0.78,
+    "priority_breakdown": {
+      "betweenness": 0.72,
+      "pagerank": 0.76,
+      "cross_community": 0.65,
+      "evidence_diversity": 0.84
+    },
+    "role_label": "Local Handler (Durg)",
+    "connections": [
+      {"id": "P-BROKER-01", "label": "Vikas S. ('Golden')", "score": 0.91},
+      {"id": "P-A-02", "label": "Dinesh Tandi", "score": 0.85},
+      {"id": "ORG-RECRUIT-01", "label": "Apex Placement Hub", "score": 0.82}
+    ],
+    "evidence": [
+      {"evidence_id": "CDR-0104", "kind": "observed", "summary": "19 calls to Broker Vikas S. coordinating transit timing.", "ts": "2026-09-27T22:00:00Z"},
+      {"evidence_id": "BANK-0021", "kind": "observed", "summary": "A/c credit from PNB rapid relay immediately disbursed in cash.", "ts": "2026-09-26T14:30:00Z"}
+    ]
+  },
+  "MP-01": {
+    "id": "MP-01",
+    "label": "Anjali Sahu (17F)",
+    "type": "person",
+    "aliases": [],
+    "priority": 0.85,
+    "priority_breakdown": {
+      "betweenness": 0.45,
+      "pagerank": 0.70,
+      "cross_community": 0.80,
+      "evidence_diversity": 0.91
+    },
+    "role_label": "Missing Person (SP-014/1)",
+    "connections": [
+      {"id": "AD-BAIT-01", "label": "Pamphlet: 'Nagpur Garments Job'", "score": 0.88},
+      {"id": "PH-BURNER-01", "label": "Burner IMSI-404-71", "score": 0.88},
+      {"id": "LOC-BHILAI-BUS", "label": "Bhilai Civic Center Bus Stand", "score": 0.92}
+    ],
+    "evidence": [
+      {"evidence_id": "FIR-01-DURG", "kind": "extracted", "summary": "Missing person FIR lodged at Supela Thana. Victim last seen walking toward Civic Center.", "ts": "2026-09-14T20:00:00Z"},
+      {"evidence_id": "CDR-0055", "kind": "observed", "summary": "Inbound call from Digital Bait Helpline 97520 88319 3 hours prior to disappearance.", "ts": "2026-09-14T14:15:00Z"}
+    ]
+  }
+}

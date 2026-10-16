@@ -1,0 +1,38 @@
+[
+  {
+    "keywords": ["broker", "golden", "vikas", "bridge", "articulation", "betweenness"],
+    "answer": "Investigative pattern analysis identifies entity P-BROKER-01 ('Vikas S. / Golden Bhai') as the primary articulation broker bridging the Durg local handlers and the Nagpur interstate receiver group [CDR-0012]. Financial analysis indicates rapid relay settlements channeled via HDFC A/c 5010..338 [TXN-0044], while witness depositions corroborate vehicle handoffs at Kumhari bypass [FIR-07-S3]. Neutralizing this node isolates inter-cluster transit by 71%.",
+    "citations": ["CDR-0012", "TXN-0044", "FIR-07-S3", "GEO-0089"],
+    "confidence": "high"
+  },
+  {
+    "keywords": ["burner", "phone", "proximity", "golden hour", "imsi"],
+    "answer": "Burner device IMSI-404-71 (+91 98930 11902) was triangulated within 180 meters of last-known coordinates for 4 out of 5 missing individuals [GEO-0044, CDR-0081]. Following victim disappearances, the device registered transit through Kumhari Toll Plaza NH-53 at 01:10 hrs before permanent deactivation 14 minutes later [TOLL-0019].",
+    "citations": ["CDR-0081", "GEO-0044", "TOLL-0019"],
+    "confidence": "high"
+  },
+  {
+    "keywords": ["pass-through", "account", "mule", "money", "transaction", "bank", "financial"],
+    "answer": "Financial forensic tracking revealed a 4-tier rapid pass-through account relay: origin SBI mule a/c 3091..412 transferred INR 45,000 into PNB a/c 1840..901 within 6 minutes [TXN-0050], immediately cascaded into HDFC consolidation hub a/c 5010..338 [TXN-0051], and settled at Axis a/c 9190..112 in Nagpur within 22 minutes [TXN-0052].",
+    "citations": ["TXN-0050", "TXN-0051", "TXN-0052"],
+    "confidence": "high"
+  },
+  {
+    "keywords": ["missing", "anjali", "priya", "kavita", "sunita", "pooja", "victim"],
+    "answer": "5 missing individuals (MP-01 through MP-05) exhibit a unified pattern worthy of investigator attention: all 5 responded to deceptive tailoring job placement advertisements [AD-BAIT-01, AD-BAIT-02] via helpline 97520 88319 [CDR-0055], with golden-hour departures originating from Bhilai Civic Center bus stop sector [FIR-01-DURG].",
+    "citations": ["AD-BAIT-01", "CDR-0055", "FIR-01-DURG", "GEO-0044"],
+    "confidence": "high"
+  },
+  {
+    "keywords": ["toll", "kumhari", "bolero", "ertiga", "vehicle", "car"],
+    "answer": "FASTag and ANPR surveillance recorded Bolero CG-07-BW-4912 and Ertiga MH-31-FA-8819 clearing Kumhari Toll NH-53 within a 4-minute interval at 01:14 hrs on 2026-09-27 [TOLL-0019, ANPR-0091], corroborating physical vehicle transfer between regional logistics handlers and interstate receivers.",
+    "citations": ["TOLL-0019", "ANPR-0091"],
+    "confidence": "medium"
+  },
+  {
+    "keywords": ["decoy", "shopkeeper", "ramesh", "gupta", "kirana"],
+    "answer": "Entity P-SHOP-01 (Ramesh Gupta Paan/Kirana) was evaluated and classified as an incidental high-degree decoy contact. Despite registering 12 inbound/outbound call ties, its betweenness centrality is 0.04 and all interactions are sub-20 second airtime recharge transactions [CDR-0401, GEO-0120]. Priority score remains 0.12.",
+    "citations": ["CDR-0401", "GEO-0120"],
+    "confidence": "medium"
+  }
+]
