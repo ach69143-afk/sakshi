@@ -14,9 +14,14 @@ from dotenv import load_dotenv
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("sakshi")
 
-# 1a. Explicit absolute path loading for .env
+# 1a. Explicit absolute path loading for .env and sys.path resolution
 _curr_dir = os.path.dirname(os.path.abspath(__file__))
 _sakshi_dir = os.path.dirname(_curr_dir)
+
+if _curr_dir not in sys.path:
+    sys.path.insert(0, _curr_dir)
+if _sakshi_dir not in sys.path:
+    sys.path.insert(0, _sakshi_dir)
 
 _env_paths = [
     os.path.join(_sakshi_dir, ".env"),
