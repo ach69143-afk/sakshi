@@ -11,7 +11,7 @@ import {
   Layers,
   Activity
 } from 'lucide-react';
-import { generateReportApi, emailReportApi } from '../api';
+import { generateReportApi, emailReportApi, downloadReportApi, getReportDownloadUrl } from '../api';
 import { useAuth } from '../context/AuthContext';
 
 export const Report = () => {
@@ -68,11 +68,24 @@ export const Report = () => {
     }
   };
 
-  const handleDownload = () => {
-    const url = reportData?.url 
-      ? (reportData.url.startsWith('http') ? reportData.url : `http://127.0.0.1:8000${reportData.url}`)
-      : 'http://127.0.0.1:8000/api/report/RPT-SP014-01/download';
-    window.open(url, '_blank');
+  const handleDownload = async () => {
+    const reportId = reportData?.report_id || 'RPT-SP014-01';
+    try {
+      const blob = await downloadReportApi(reportId);
+      const blobUrl = window.URL.createObjectURL(new Blob([blob], { type: 'application/pdf' }));
+      const link = document.createElement('a');
+      link.href = blobUrl;
+      link.setAttribute('download', `SAKSHI_${reportId}_Intelligence_Dossier.pdf`);
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.URL.revokeObjectURL(blobUrl);
+    } catch {
+      const url = reportData?.url 
+        ? (reportData.url.startsWith('http') ? reportData.url : getReportDownloadUrl(reportId))
+        : getReportDownloadUrl(reportId);
+      window.open(url, '_blank');
+    }
   };
 
   const sim = reportData?.simulation;
